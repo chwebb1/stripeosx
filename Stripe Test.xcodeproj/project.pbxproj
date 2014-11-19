@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73C2A6319EA250D00D33DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C2A6219EA250D00D33DAC /* main.m */; };
+		A73C2A6619EA250D00D33DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C2A6519EA250D00D33DAC /* AppDelegate.m */; };
+		A73C2A6819EA250D00D33DAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C2A6719EA250D00D33DAC /* Images.xcassets */; };
+		A73C2A6B19EA250D00D33DAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C2A6919EA250D00D33DAC /* MainMenu.xib */; };
+		A73C2A7719EA250D00D33DAC /* Stripe_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C2A7619EA250D00D33DAC /* Stripe_TestTests.m */; };
+		A73C2A8519EA254800D33DAC /* Stripe.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C2A8419EA254800D33DAC /* Stripe.m */; };
+		A73C2A8B19EA28B300D33DAC /* StripeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C2A8A19EA28B300D33DAC /* StripeTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A73C2A7119EA250D00D33DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73C2A5519EA250D00D33DAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73C2A5C19EA250D00D33DAC;
+			remoteInfo = "Stripe Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73C2A5D19EA250D00D33DAC /* Stripe Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stripe Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C2A6119EA250D00D33DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C2A6219EA250D00D33DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A73C2A6419EA250D00D33DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A73C2A6519EA250D00D33DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A73C2A6719EA250D00D33DAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A73C2A6A19EA250D00D33DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A73C2A7019EA250D00D33DAC /* Stripe TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stripe TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C2A7519EA250D00D33DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73C2A7619EA250D00D33DAC /* Stripe_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stripe_TestTests.m; sourceTree = "<group>"; };
+		A73C2A8219EA254800D33DAC /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		A73C2A8319EA254800D33DAC /* Stripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stripe.h; sourceTree = "<group>"; };
+		A73C2A8419EA254800D33DAC /* Stripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stripe.m; sourceTree = "<group>"; };
+		A73C2A8919EA28B300D33DAC /* StripeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StripeTest.h; path = ../StripeTest.h; sourceTree = "<group>"; };
+		A73C2A8A19EA28B300D33DAC /* StripeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StripeTest.m; path = ../StripeTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73C2A5A19EA250D00D33DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C2A6D19EA250D00D33DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73C2A5419EA250D00D33DAC = {
+			isa = PBXGroup;
+			children = (
+				A73C2A8019EA253400D33DAC /* Stripe */,
+				A73C2A5F19EA250D00D33DAC /* Stripe Test */,
+				A73C2A7319EA250D00D33DAC /* Stripe TestTests */,
+				A73C2A5E19EA250D00D33DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73C2A5E19EA250D00D33DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A5D19EA250D00D33DAC /* Stripe Test.app */,
+				A73C2A7019EA250D00D33DAC /* Stripe TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73C2A5F19EA250D00D33DAC /* Stripe Test */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A8919EA28B300D33DAC /* StripeTest.h */,
+				A73C2A8A19EA28B300D33DAC /* StripeTest.m */,
+				A73C2A6419EA250D00D33DAC /* AppDelegate.h */,
+				A73C2A6519EA250D00D33DAC /* AppDelegate.m */,
+				A73C2A6719EA250D00D33DAC /* Images.xcassets */,
+				A73C2A6919EA250D00D33DAC /* MainMenu.xib */,
+				A73C2A6019EA250D00D33DAC /* Supporting Files */,
+			);
+			path = "Stripe Test";
+			sourceTree = "<group>";
+		};
+		A73C2A6019EA250D00D33DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A6119EA250D00D33DAC /* Info.plist */,
+				A73C2A6219EA250D00D33DAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73C2A7319EA250D00D33DAC /* Stripe TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A7619EA250D00D33DAC /* Stripe_TestTests.m */,
+				A73C2A7419EA250D00D33DAC /* Supporting Files */,
+			);
+			path = "Stripe TestTests";
+			sourceTree = "<group>";
+		};
+		A73C2A7419EA250D00D33DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A7519EA250D00D33DAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A73C2A8019EA253400D33DAC /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A8119EA254800D33DAC /* base */,
+				A73C2A8319EA254800D33DAC /* Stripe.h */,
+				A73C2A8419EA254800D33DAC /* Stripe.m */,
+			);
+			name = Stripe;
+			sourceTree = "<group>";
+		};
+		A73C2A8119EA254800D33DAC /* base */ = {
+			isa = PBXGroup;
+			children = (
+				A73C2A8219EA254800D33DAC /* prefix.pch */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73C2A5C19EA250D00D33DAC /* Stripe Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C2A7A19EA250D00D33DAC /* Build configuration list for PBXNativeTarget "Stripe Test" */;
+			buildPhases = (
+				A73C2A5919EA250D00D33DAC /* Sources */,
+				A73C2A5A19EA250D00D33DAC /* Frameworks */,
+				A73C2A5B19EA250D00D33DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stripe Test";
+			productName = "Stripe Test";
+			productReference = A73C2A5D19EA250D00D33DAC /* Stripe Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73C2A6F19EA250D00D33DAC /* Stripe TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73C2A7D19EA250D00D33DAC /* Build configuration list for PBXNativeTarget "Stripe TestTests" */;
+			buildPhases = (
+				A73C2A6C19EA250D00D33DAC /* Sources */,
+				A73C2A6D19EA250D00D33DAC /* Frameworks */,
+				A73C2A6E19EA250D00D33DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73C2A7219EA250D00D33DAC /* PBXTargetDependency */,
+			);
+			name = "Stripe TestTests";
+			productName = "Stripe TestTests";
+			productReference = A73C2A7019EA250D00D33DAC /* Stripe TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73C2A5519EA250D00D33DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Chris Webb";
+				TargetAttributes = {
+					A73C2A5C19EA250D00D33DAC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A73C2A6F19EA250D00D33DAC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A73C2A5C19EA250D00D33DAC;
+					};
+				};
+			};
+			buildConfigurationList = A73C2A5819EA250D00D33DAC /* Build configuration list for PBXProject "Stripe Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73C2A5419EA250D00D33DAC;
+			productRefGroup = A73C2A5E19EA250D00D33DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73C2A5C19EA250D00D33DAC /* Stripe Test */,
+				A73C2A6F19EA250D00D33DAC /* Stripe TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73C2A5B19EA250D00D33DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C2A6819EA250D00D33DAC /* Images.xcassets in Resources */,
+				A73C2A6B19EA250D00D33DAC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C2A6E19EA250D00D33DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73C2A5919EA250D00D33DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C2A6619EA250D00D33DAC /* AppDelegate.m in Sources */,
+				A73C2A8519EA254800D33DAC /* Stripe.m in Sources */,
+				A73C2A8B19EA28B300D33DAC /* StripeTest.m in Sources */,
+				A73C2A6319EA250D00D33DAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73C2A6C19EA250D00D33DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73C2A7719EA250D00D33DAC /* Stripe_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73C2A7219EA250D00D33DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73C2A5C19EA250D00D33DAC /* Stripe Test */;
+			targetProxy = A73C2A7119EA250D00D33DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A73C2A6919EA250D00D33DAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73C2A6A19EA250D00D33DAC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73C2A7819EA250D00D33DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A73C2A7919EA250D00D33DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A73C2A7B19EA250D00D33DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stripe Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A73C2A7C19EA250D00D33DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Stripe Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A73C2A7E19EA250D00D33DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stripe TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripe Test.app/Contents/MacOS/Stripe Test";
+			};
+			name = Debug;
+		};
+		A73C2A7F19EA250D00D33DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stripe TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripe Test.app/Contents/MacOS/Stripe Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73C2A5819EA250D00D33DAC /* Build configuration list for PBXProject "Stripe Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C2A7819EA250D00D33DAC /* Debug */,
+				A73C2A7919EA250D00D33DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73C2A7A19EA250D00D33DAC /* Build configuration list for PBXNativeTarget "Stripe Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C2A7B19EA250D00D33DAC /* Debug */,
+				A73C2A7C19EA250D00D33DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A73C2A7D19EA250D00D33DAC /* Build configuration list for PBXNativeTarget "Stripe TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73C2A7E19EA250D00D33DAC /* Debug */,
+				A73C2A7F19EA250D00D33DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73C2A5519EA250D00D33DAC /* Project object */;
+}
